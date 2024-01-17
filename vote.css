@@ -237,7 +237,7 @@ label {
 .content ul li {
   list-style-type: circle;
 }
-.button {
+.vote_button {
   width: 100px;
   height: 50px;
   font-size: 20px;
@@ -246,8 +246,9 @@ label {
   padding: 8px 12px;
   margin: 20px;
   background-color: rgb(240, 242, 244);
+  color: black;
 }
-.button:hover {
+.vote_button:hover {
   background-color: rgb(44, 48, 145);
   color: white;
 }
