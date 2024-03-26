@@ -1,0 +1,117 @@
+.sidebarButton {
+  width: 100px;
+  height: 30px;
+  background-color: beige;
+  border: none;
+  border-radius: 10px;
+}
+.sidebarXButtonWrap {
+  background-color: #263392;
+  width: 300px;
+  height: 30px;
+  transition: 0.3s;
+  margin: 0;
+}
+.sidebarXButton {
+  width: 100px;
+  height: 30px;
+  background-color: beige;
+  border: none;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+.xButtonHide {
+  background-color: #263392;
+  color: white;
+  margin-left: -300px;
+  width: 300px;
+  height: 30px;
+  transition: 0.3s;
+}
+.xButtonActive {
+  background-color: #263392;
+  color: white;
+  transition: 0.3s;
+  width: 300px;
+  height: 30px;
+  margin-left: 0;
+}
+.hide {
+  background-color: #263392;
+  color: white;
+  margin-left: -300px;
+  width: 300px;
+  height: 100vh;
+  transition: 0.3s;
+}
+
+.active {
+  background-color: #263392;
+  color: white;
+  transition: 0.3s;
+  width: 300px;
+  height: 100vh;
+  margin-left: 0;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.photo {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+.nameStudentNumMajor {
+  margin: 5px;
+  height: 70px;
+}
+.nameStudentNum {
+  display: flex;
+  margin: 5px;
+}
+
+.major {
+}
+
+.name {
+  padding: 5px;
+}
+.studentNum {
+  padding: 5px;
+}
+
+.changeLogout {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.change {
+  margin-right: 15px;
+}
+.logout {
+  margin-left: 15px;
+}
+
+hr {
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sidebarMenu {
+  padding-left: 15px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+}
